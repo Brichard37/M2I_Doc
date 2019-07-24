@@ -1,0 +1,122 @@
+Classes
+=======
+Comment fait on une classe en Java, au minimum ?
+	Dans un fichier d'extension .java, on utilise le mot class, un nom valide et un bloc.
+
+Quelles sont les portées possibles d'une classe ?
+	public ou package
+
+Qu'y a t'il dans une classe (éléments d'instance) ?
+	Des champs et des méthode
+
+Que veut dire static ?
+	Elément de classe.
+
+Que veut dire final ?
+	Elément constant.
+
+Comment faire des accesseurs ?
+	type monAttribut;
+
+	type getMonAttribut()
+	void setMonAttribut(type valeur)
+
+C'est quoi la surcharge ?
+	Ecrire plusieurs méthode de même nom mais de signatures différentes.
+
+C'est quoi la signature d'une méthode ?
+	C'est le nom de la méthode plus les différents type de parametre.
+
+Un constructeur peut il en appeler un autre dans la même classe ?
+	this()
+
+Un constructeur peut il en appeler un autre dans la classe parent ?	
+	super()
+
+Un constructeur peut il en appeler un autre dans n'importe quelle classe ?
+	Non!
+
+Héritage
+========
+Quel mot clé est utilisé en Java pour l'héritage
+	extends
+
+De combien de classes peut dériver une classe en Java
+	Une seule
+
+Comment forcer une classe à être utilisée à travers l'héritage ?
+	Abstract
+
+Comment forcer la redéfinition d'une méthode ?
+	Abstract method
+
+Comment se traduit le polymorphisme
+	On reformule une méthode héritée, avec exactement la même signature et optionnellement on y ajoute une annotation @Override
+
+Exceptions
+==========
+C'est quoi une exception en Java ?
+	c'est un objet d'une classe dérivée d'Exception (exceptions "checkées") ou de RuntimeException (exceptions " non checkées") 
+
+Y a t'il un ordre pour les instructions catch ?
+	Oui, il faut mettre les exceptions les plus specifiques en premier
+
+Un catch peut il attraper plusieurs types spécifiques d'exception
+	oui avec un "try multi-catch"
+
+Quel mot clé permet de lancer une exception ?
+	throw
+
+Quel mot clé signale au compilateur qu'une exception traverse une méthode
+	throws
+
+Interfaces
+==========
+A quoi sert une interface ?
+	- Un contrat forçant une classe a fournir des méthodes (programmation évènementielle, threads)
+	- Controler les couplages entre les couches logicielles
+	- A filtrer ce qu'une référence peut voir d'un objet
+
+Que peut elle contenir ?
+	- des formats de méthodes.
+	- des constantes.
+
+Quels sont les usages pratiques des interfaces
+
+Quel mot clé permet à une classe d'implémenter une interface ?
+	-implements
+
+Une interface peut elle hériter d'une autre ?
+	Oui et même de plusieurs autres (héritages multiple)
+
+Types génériques
+================
+Quel est l'intéret des types génériques ?
+Une interface peut elle être générique ?
+Pourquoi les collections sont elles génériques ?
+Quelles sont les trois grandes familles de collections que l'on a vues ?	
+	List, Map, Set	
+Citer au moins un nom de classe collection de ces trois familles.
+	ArrayList, HashMap, HashSet
+
+VM et environnement d'exécution
+===============================
+Que produit la compilation de code Java ?
+C'est quoi la JRE ? Et la JVM ? Et le JDK ?
+C'est quoi Java SE ? Et Java EE ?
+C'est quoi un ramasse miettes ("garbage collector", ou GC) ?
+C'est quoi le 'chargement dynamique de classes' ?
+Que veut dire dynamique (chargement dynamique, polymorphisme dynamique, analyse dynamique de types etc.) ?
+
+Autres
+======
+Qu'est ce qu'une annotation ?
+	Ce sont des Métadata
+
+JDBC
+====
+Quels sont les types de drivers JDBC ?
+Quelles sont les étapes de la connexion à un SGBD, en Java ?
+Comment exécute t'on une requête SQL avec JDBC ?
+
+
