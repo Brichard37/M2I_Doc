@@ -422,3 +422,52 @@ Une session expire au bout de quelques minutes ( par défaut 30 minutes pour Tom
  ## CMS (content management system)
 
  > Drupal, Wordpress, Joomla, Sugar
+
+ # ORM, JPA, Hibernate
+
+ ## Qu'est-ce qu'un ORM?
+
+ > "Object Relational Mapping" : Mapping entre les objets en mémoires et la base de données.
+ > Maintient une synchronisation entre les données des objets en mémoire  et le SGBD. 
+ > Rend donc les objets persistant
+
+ ## Qu'est-ce que JPA?
+
+ > "Java persistence Architecture" : JPA est une norme Java qui définit pour tous les moteurs de persistance (hibernates, eclipseLink, iBatis, OpenJPA ect...).
+ > La norme a respecter.
+> 
+> Gavin King (créateur d'Hibernate) a présidé la normalisation de JPA (version 2.3 actuelle)
+
+## Qu'est-ce qu' Hibernate?
+
+> Hibernate est un produit, une simple bibliothèque Java qui implément la norme JPA
+
+## Qu'est-ce qu'une unitée de persistance (persistence unit)?
+
+> L'ensemble des réglage (définis dans persistence.xml) permettant à JPA de se connecter à une base de données
+
+## Qu'est-ce qu'une Entité?
+
+> Une classe (et donc ses objets) persistant.
+
+## Qu'est-ce qu'un Entity Manager (Gestionnaure d'entitées) ?
+
+> Classe de JPA chargée d'enregistrer, de recharger et de supprimer (éventuellement) les objets enregistrés (les entités). Supervise toutes les opérations de persistance des objets.
+>
+> Créé par un EntityManagerFactory ou 'injecté' par le serveur (Pattern d'injection de dépendances). 
+
+## Qu'est-ce qu'une DataSource?
+
+> Configuration défini de connexion à une base de données défini et maintenue par le serveur d'application.
+>
+> Une application peut s'en servir (elle ne connait que son nom) sans connaitre les détail de la connexion.
+
+## Qu'est-ce que le contexte de persistance (persistence context)?
+
+> Cache de premier niveau géré par l'EntityManager dnas lequel les objets doivent se trouver pour que JPA puisse les gérer.
+>
+> Pour mettre un objet dans ce cahce on peut :
+>- appeler persist()
+>- appeler find()
+>- faire une requête JPQL
+>- merge() qui reconnecte un objet au cache...
