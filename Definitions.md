@@ -423,7 +423,7 @@ Une session expire au bout de quelques minutes ( par défaut 30 minutes pour Tom
 
  > Drupal, Wordpress, Joomla, Sugar
 
- # ORM, JPA, Hibernate
+ # ORM, JPA, Hibernate, Spring
 
  ## Qu'est-ce qu'un ORM?
 
@@ -437,6 +437,8 @@ Une session expire au bout de quelques minutes ( par défaut 30 minutes pour Tom
  > La norme a respecter.
 > 
 > Gavin King (créateur d'Hibernate) a présidé la normalisation de JPA (version 2.3 actuelle)
+>
+> JPA est un fragment de Java EE qui à été étendue a Java SE
 
 ## Qu'est-ce qu' Hibernate?
 
@@ -466,8 +468,62 @@ Une session expire au bout de quelques minutes ( par défaut 30 minutes pour Tom
 
 > Cache de premier niveau géré par l'EntityManager dnas lequel les objets doivent se trouver pour que JPA puisse les gérer.
 >
-> Pour mettre un objet dans ce cahce on peut :
+> Pour mettre un objet dans ce cache on peut :
 >- appeler persist()
 >- appeler find()
 >- faire une requête JPQL
 >- merge() qui reconnecte un objet au cache...
+
+## Avantage d'un Serveur d'application ou de Sp^ring pour JPA
+
+> Création automatique de l'EntityManager et de l'EntityManagerFactory ainsi que leur fermeture, des transactions automatiques
+
+## Qu'es-ce que Spring?
+
+> Une alternative propriétaire aux servers normalisés Java EE mais plus modulable
+
+# API HTML
+
+## Qu'est-ce qu'un service web?
+
+> - Un service web sert à faire communiquer les applications entre elles.
+> - Les plateformes sont différentes
+> - Les langages utilisés sont différents
+> - Le format des données échangées
+>
+> Un service web doit fonctionner sur toutes les plateformes, présente partout, doit utiliser un format de données universel.
+> - Un protocole réseau universel : **HTTP**
+> - Un format de données universel : **XML**
+> HTTP + XML : **S**imple **O**bject **A**ctivation **P**rotocol (**SOAP**)
+> Réservé aux échange avec validation de données.
+>
+> JAX-WS 'Java API for XML and Web Services'
+>
+>Reference Implementation : **metro**, en partie dans JDK
+>
+> Toujours du XML et Toujours des POST
+
+## Qu'es-ce qu'un service web REST?
+
+> Roy fielding a inventé le terme REST (**RE**presentational **S**tate **T**ransfer)
+>
+> JAX-RS (Java Api XML for Restful Services)
+>
+>Reference Implementation : **jersey**
+>
+> Méthode HTTP :
+
+> GET, PUT, POST, DELETE
+>
+> Create Retrive Update Delete
+
+## REST ou SOAP?
+> Sur intranet on utilise SOAP
+
+> Sur le Web on utilise plutôt le REST
+
+## Les formats JAXWS
+
+> **SOAP** :
+>
+> **WSDL** : **W**eb **S**ervice **D**escription **L**anguage
