@@ -1,0 +1,8 @@
+<div>
+<button (click)='nouveauPoint()'>Nouveau point</button><br/>
+<button (click)='ligne()'>Ligne</button><br/>
+<button (click)='cercle()'>Cercle</button><br/>
+<button (click)='rectangle()'>Rectangle</button><br/>
+<canvas #cv id="cv"  width='400px' height='400px' (mousemove)="dessiner($event)"></canvas><br/>
+</div>
+<router-outlet></router-outlet>

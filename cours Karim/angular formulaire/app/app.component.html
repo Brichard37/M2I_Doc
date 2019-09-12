@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h2>Expression</h2>
+<div>
+	<form [formGroup]="personne" (ngSubmit)="valider(personne.value)">
+	Nom : <input type='text' formControlName="nom"/><br/>
+	Prenom : <input type='text' formControlName ="prenom"/><br/>
+	Age: <input type='text' formControlName ="age"/><br/>
+	<button type='submit'>Je click</button>
+	</form>
+	{{data}}<br/>
+</div>
+
