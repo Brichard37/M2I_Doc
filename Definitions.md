@@ -12,7 +12,7 @@
 
 > Une classe non instanciable. Généralement sert à deux usages :
 > - classe "ABC" (Abstract Base Class) : classe parents de toute une hiérarchie de classe concrètes (factorisation de code).
-> - classe contenant uniquement des méthodes static. Regroupe une bibliothèque particulière (ex : Math. pour les fonctions mathématiques)
+> - classe contenant uniquement des méthodes statiques. Regroupe une bibliothèque particulière (ex : Math. pour les fonctions mathématiques)
 
 ## Méthode Abstraite
 
@@ -423,6 +423,72 @@ Une session expire au bout de quelques minutes ( par défaut 30 minutes pour Tom
 
  > Drupal, Wordpress, Joomla, Sugar
 
+ ## Qu'es-ce qu'un Middleware
+ > c'est un protocole applicatif de conteneur.
+ + Doit etre ACID
+ + Intègre les méthodes de Sérialisation => Désérialisation
+ + Doit avoir des capacitées d'échange
+
+ ## Design Pattern
+
+ > C'est la modélisation d'un sous système paramétré
+
+ ## Java Bean
+
+ > Classe vide contenant un constructeur sans paramètre et des accesseurs
+
+ ## Que contient le JEE
+ - **Servlet** 
+ 	+ Composant représentant le C (Controller) du paradigme MVC
+ - **Portlet**
+ 	+ Conteneur Web (extension de l'API Servlet)
+ - **JavaServer Pages (JSP)**
+ 	+ Framework Web
+ - **Java Standard Tag Library (JSTL)**
+ 	+ bibliothèque de balises pour les JSP
+ - **JavaServer Faces (JSF)**
+ 	+ Java Server Face, Framework Web
+ - **EJB**
+ 	+ Composants distribués transactionnels (Entity, Session) ACID
+ - **JNDI**
+ 	+ API de connexion à des annuaires, notamment des annuaires LDAP, et espace de noms d'objet (ENC)
+ - **JDBC**
+ 	+ API de connexion à des bases de données
+ - **Java Message Service (JMS)**
+ 	+ API de communication asynchrone par message
+ - **JCA**
+ 	+ API de connexion, notamment à des PGI
+ - **JavaMail**
+ 	+ API de gestion des mails
+ - **JMX**
+ 	+ Extension d'administration des applications
+ - **JPA**
+ 	+ API de gestion de la persistance des données
+ - **JTA**
+ 	+ API de gestion des transactions
+ - **Java API for XML Processing (JAXP)**
+ 	+ API d'analyse XML
+ - **JAXM**
+ 	+ API de communication asynchrone par XML
+ - **JAX-RPC / JAX-WS**
+ 	+ API de communication synchrone par XML, par exemple à l'aide du protocole SOAP
+ - **JAXB**
+ 	+ API de sérialisation par XML
+ - **JAXR**
+ 	+ API de gestion des registres XML, permettant d'enregistrer des Web Services en ebXML
+ - **Java RMI**
+ 	+ API de communication distante entre des objets Java (ACID // Middleware)
+ - **Java IDL**
+ 	+ API de communication entre objets Java et objets non-Java, via le protocole CORBA
+ - **JAAS (JAva Authentification Service)**
+ - **WS** 
+	+ JAX-RS
+	+ JAX-WS
+ - **RMI** (Remote Methode Invocation)
+ - **JMS**
+ - **J2C**
+ - **JTS**
+
  # ORM, JPA, Hibernate, Spring
 
  ## Qu'est-ce qu'un ORM?
@@ -443,6 +509,8 @@ Une session expire au bout de quelques minutes ( par défaut 30 minutes pour Tom
 ## Qu'est-ce qu' Hibernate?
 
 > Hibernate est un produit, une simple bibliothèque Java qui implément la norme JPA
+>
+> C'est un ORM (Object Relational Model)
 
 ## Qu'est-ce qu'une unitée de persistance (persistence unit)?
 
@@ -474,7 +542,7 @@ Une session expire au bout de quelques minutes ( par défaut 30 minutes pour Tom
 >- faire une requête JPQL
 >- merge() qui reconnecte un objet au cache...
 
-## Avantage d'un Serveur d'application ou de Sp^ring pour JPA
+## Avantage d'un Serveur d'application ou de Spring pour JPA
 
 > Création automatique de l'EntityManager et de l'EntityManagerFactory ainsi que leur fermeture, des transactions automatiques
 
@@ -515,15 +583,16 @@ Une session expire au bout de quelques minutes ( par défaut 30 minutes pour Tom
 
 > GET, PUT, POST, DELETE
 >
-> Create Retrive Update Delete
+> Create, Read (Retrieve), Update (Modify), Delete (Destroy)
 
 ## REST ou SOAP?
 > Sur intranet on utilise SOAP
 
-> Sur le Web on utilise plutôt le REST
+> Sur le Web on utilise plutôt le REST (**/!\ REST n'est pas un middle-ware**)
 
 ## Les formats JAXWS
 
-> **SOAP** :
+> **SOAP** : **S**imple **O**bject **A**ctivation **P**rotocol
 >
 > **WSDL** : **W**eb **S**ervice **D**escription **L**anguage
+

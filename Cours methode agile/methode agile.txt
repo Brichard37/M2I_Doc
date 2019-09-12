@@ -1,0 +1,239 @@
+Sprint = itération : temps pendant lequel une équipe agile s'accorde pour travailler
+1 sprint reprend ce qu'on fait dans un cycle en "V" (concevoire, faire, livrer) mais sur une durée très courte
+
+On court après la VALEUR pour chercher la SATSISFACTION du CLIENT
+EMPIRICISME : Un processus empirique en apprend de lui-même : il apprend sur son l'expérience
+
+CLIENT : rapidité dans la LIVRAISON de la VALEUR qu'on va apporter à son produit
+L'agilité apporte au client la capacité de CHANGER : On ne doit pas jeter son code et recommencer en cas de changement
+
+CYCLE COURT : itérations. Commencer et s'arrêter plusieurs fois de suite. On fait ça de manière INCRÉMENTALE : On agrandit le produit depuis une base pour prendre de plus en plus d'ampleur jusqu'à ce que le client nous arrête car il est satisfait
+
+On doit constament demander au client à la fin de chaque cycle si ce qu'on a fait est bon : on demande au client un FEEDBACK. (Un cycle court dure entre 2 et 4 semaines, au choix. Moins de 2 semaines c'est trop court, pas assez de temps pour le travail. Plus de 4 semaines c'est trop long pour le FEEDBACK : on sort d'un cycle court)
+
+HUMAIN : Toutes les parties sont gérées par des HUMAINS et ça comprend tout ce qui va avec : l'humeur, l'environnement dans lequel cet humain travaille, etc.
+Quand on met trop de cadre à un humain, on limite sa pensée, on le bride
+
+Approches prédictives et adaptives
+
+L'approche classique / prédictive se base sur une certitude de ce qui a été écrit comme besoin au départ (plusieurs mois voire années avant le moment ou on commence effectivement à coder puis à livrer le produit) sans prendre en compte une évolution possible du besoin au fil du temps. On voit ça avec des cycles en "V" ou en "Cascade"
+Ce n'est pas parce qu'on sait ce qu'on veut qu'on ne peut pas faire l'agilité.
+LE CLIENT NE SAIT JAMAIS CE QU'IL VEUT même s'il dit le contraire.
+On ne peut pas penser qu'un être humain ne peut pas changer d'avis depuis le moment où il a exprimé son besoin, ni qu'il a pensé à tout dès le départ.
+
+En approche classique, tout est scellé et rien ne bouge
+
+Pour un projet, on doit respecter les délai, budget et périmètres d'un projet, mais ça sert à quoi si personne ne s'en sert après ?
+
+
+L'approche agile
+
+On sait ce qui se passe et ce qu'on veut aujourd'hui, mais pas demain.
+On essaie de répondre à nos besoins d'aujourd'hui avec ce qu'on connait. On n'anticipe pas trop au risque de perdre de l'argent ou d'autres investissements.
+Comme le client ne sait pas ce qu'il veut au départ, il apprend à le connaître au fur et à mesure avec l'équipe de réalisation.
+On court après les éléments qui ont le plus de valeur afin de mieux maîtriser son budget.
+On a une crainte de budget car tout n'est pas fixé au départ. Cependant on donne une enveloppe pour un cycle court. On produit déjà un produit que le client peut quand même potentiellement vendre alors qu'il n'est pas encore terminé, ce qui fait grossir l'enveloppe. On la consomme peu à peu pour financer le projet
+
+Le développeur n'a pas la certitude qu'il répond au besoin (contrairement à l'approche classique). Il peut retourner ses difficultés, contraintes techniques... au client et s'ADAPTER. C'est beaucoup plus difficile en approche classique quand on doit changer quelque chose (ou rajouter un oubli) après qu'une longue période de temps soit écoulée.
+
+
+
+
+La méthode agile n'a rien inventé. D'autres méthodes agile existaient déjà avant le manifeste agile en 2001. Ce manifest est le concentré des parties qui ont le mieux marché dans les autres méthodes
+
+L'approche d'un projet se fait sur PDCA : Plan, Do, Check, Act / Adjust
+Lien du manifeste Agile : https://martinfowler.com/articles/newMethodology.html
+
+En agile, seul 2 documents sont forcément nécessaires : Product backlog et DoD : Definition of Done
+Tout autre document doit apporter de la valeur, par exemple un manuel utilisateur
+
+
+
+Une méthode décrit comment faire et si on ne suit pas cette "recette" ça marche pas. Agile utilise des frameworks. "Passe derrière les tables DU COTÉ DROIT pour que ça marche." : méthode; "Passe derrière les tables" : agile
+
+TRANSPARENCE : Les autres savent ce qu'on fait, coté client et développeur. On ne doit pas faire les choses dans son coin. On doit aussi partager les succès comme les échecs. On ne doit pas garder un échec pour soi et rester bloqué, de plus ça pénalise l'équipe.
+AUTO-ORGANISÉ : pas de chef / chef de projet (avec des exécutants / employés) en agile = pas de chef pour résoudre les conflits. Il y a plutôt des managers agile (avec des collaborateurs). La responsabilité est partagée. 
+
+Communication à froid : l'information ne circule que dans un seul sens. Il n'y a pas de retour de questions possible. L'information est consommée.
+Communication plus chaude : l'échange se fait en canal de communication et en temps réel. On peut confronter les idées en tête-à-tête.
+
+Un manageur agile échange beaucoup. Il a de la confience envers ses collaborateurs. Le collaborateur se doit d'endosser les responsabilités pour maintenir / améliorer cette confience. il y a aussi une indulgence quand on se trompe, contrairement à une hiérarchie verticale.
+
+Valeur d'un produit : Celle qu'on est prêt à mettre dedans, la cible, l'estimation temporelle
+On se focalise sur les fonctionnalités les plus importantes. Après on évalue la rentabilité de fonctionnalités supplémentaires : vont-elles être utilisées par beaucoup de personnes ? Quel coût ça a de les implémenter ?
+
+4e sprint : le client sait le minimum qu'il doit avoir. Après, il évalue ce minimum auprès de son marché
+
+Time to Market : temps de mise en place sur le marché
+Gain en qualité : si un choix fait pour une itération ne convient pas, on fait un autre choix pour la suivante. Si c'est toujours pas bon on peut continuer de recommencer à chaque itération.
+La transparence avec le client (avec les rapports réguliers sur ce qu'on fait) lui permet de gagner sa confience. Il rallonge parfois le budget de lui-même.
+STAKEHOLDER : Parties prenantes. Tout ce qui est intéressé par ce qu'on fait.
+
+Gain pour l'entreprise en respect des délais. Comme on a déjà créé les éléments les plus importants au départ, on est sur d'avoir un produit qui marche. Mais un projet agile n'a pas de fin.
+
+ROI : Return On Investment : retour sur investissement
+
+L'agilité permet au client de bien connaître ses priorités. Ses choix initiaux ne sont peut-être pas les bons et on peut revenir dessus pour réarranger les choses à faire en 1er.
+L'agilité fait cesser le management au stress. Elle arrête la recherche de coupables. les managers doivent être des moteurs et apprendre à supporter les autres : CONFIENCE. Ils doivent rendre service à l'équipe pour mettre ses membres dans de bonnes conditions de travail, aider à résoudre les problèmes si quelqu'un est bloqué... Léquipe n'est pas au service du manager, c'est le contraire.
+
+Pour que la méthode agile fonctionne, le client doit être près à l'appliquer ainsi que le haut management. Il faut une culture agile
+Disponibilité des Stakeholder
+Architecture scalable : peut-on bouger des éléments facilement ?
+Une équipe agile doit avoir toutes les compétences nécessaires pour réaliser le produit sans avoir besoin d'une aide extérieure
+
+
+Tableau Kanban (Kanban = enseigne, panneau) Lutter contre le stock
++-----------+-------------+------------+
+|	TODO	|	  WIP	  |	   Done    |
++-----------+-------------+------------+
+|           |             |            |
+|           |             |            |
+|           |             |            |
++-----------+-------------+------------+
+On remplit le tableau avec des tickets correspondant à des choses à faire et on déplace ces tickets d'une colonne à une autre. WIP peut être subdivisé en sous colonnes.
+On n'est pas limité dans le temps en kaban : on prend, on fait le plus vite possible (en WIP) et on sort. Pas de gestion de stocks. Trop de taches en "WIP" en même temps est problématique. Le Kanban est un management visuel qui demande un rythme soutenu.
+Le Kanban est à flux tendu, pas limité dans le temps : pas de sprint. Mais on cherche à réduire le plus possible le temps entre TODO et Done (Lead Time)
+Le product backlog correspond au TODO et le DoD à une liste de critères à remplir quand on évalue le DONE par rapport au TODO. On doit aussi traquer tout ce qu'on a fait dans chaque colonne du tableau (y compris dans les sous-colonnes de WIP)
+Quand quelque chose est fait (DONE), on fait un feedback avec le client, si ça convient pas, on le remet dans TODO et on recommence.
+
+
+
+Scrum (axé production, beaucoup de cérémonies)
+Est un framework (cadre de travail) mais pas une méthode
+Commitment = engagement
+
+Une équipe scrum se focalise sur le sprint pour attendre un but (spring goal)
+Respect entre les membres de l'équipe + ouverture d'esprit
+Commitment : implication (tout le monde concerné) et engagement (l'équipe seule)
+
+Product backlog : On liste dedans tout ce qui se produit
+Le PO (Product Owner) est responsable des comptes du product backlog
+Les US sont subdivisées en USF (fonctionnelles), UST (techniques) et les bugs
+Un sprint backlog est un sous-ensemble du product backlog
+Des objets peuvent entrer et sortir du product backlog car on est en méthode dite agile : Certains peuvent ne plus être voulus et d'autres peuevnt se rajouter
+
+DoD : liste de critères à remplir (de cases à cocher)
+1 tableau Kanban peut aussi s'appliquer à scrum
++---------------+-------------+------------+
+|      TODO    	|	  WIP	  |	   Done    |
++---------------+-------------+------------+
+|               |             |            |
+|               |             |            |
+|               |             |            |
++---------------+-------------+------------+
+ (Équipe scrum)  (Équipe dev)      (PO)      <------------- Qui en a la responsabilité
+À chaque ticket est adjoint l'estimation dans le temps 
+Les tickets passent le plus de temps en WIP
+On consacre un sprint (sprint backlog) à un ticket placé dans TODO
+
+Le PO est en relation avec beaucoup de personnes (facilement plus de 20 !) Sa disponibilité peut être mise à rude épreuve. On est censé respecter la règle 1 PO = 1 produit
+
+Le SM (scrum master)
+est un maître du temps
+
+Les 2 sont en relations avec l'équipe de développement
+
+Sprint 0 : existe seulement sur le terrain mais pas en théorie : L'équipe ne prend pas d'engagement pour produire de la valeur. On lève les obstacles d'architecture et on se prépare. Ce sprint n'a pas de durée précise contrairement aux autres. C'est aussi l'occasion pour l'équipe de se connaître, etc. Ce sprint n'est pas inclus dans le scrum guide.
+
+Découpage : le PO n'arive qu'avec un thème et des fonctionnalités. On les découpe pour que l'équipe de développement (TD) puis travailler.
+
+L'estimation en jourhomme est humainement commune et on ne l'utilise pas. On se juge mutuellement par rapport à cette échelle et on perd de vue l'objectif qui est d'estimer la durée de la US (compétitivité, préjujés sur les performances...). En plus qu'est-ce-qu'on fait si on prend moins de temps que l'estimation étéblie avant ?
+
+
+On utilise la suite de fibonnacci pour faire des estimations (en story points)
+
+Chaque membre prend une carte de la suite (ou autre support). Chaque membre vote (et le cache) puis on on révèle tous les votes simultanément. On donne la parole selon une dichotomie : 40 - 5 - 20...
+On répète le vote jusqu'à ce que la plupart des votes soient 2 entiers proches dans la suite. On finit par choisir entre le confort (le plus grand) ou le défi (le plus petit)
+Ces estimations prennent du temps sur le sprint planning.
+Cartes ? : la personne ne sait pas
+Cartes infini : la personne n'arrive pas à estimer une durée finie, c'est trop gros pour elle. Peut-être faut-il redécouper l'US encore ?
+Cartes café : on en a trop bavé... pause !
+
+L'US estimée avec cette méthode au complet est l'US étalon. Pour estimer d'autres US par la suite, on se base sur leur complexité par rapport à cette US étalon pour une estimation plus rapide.
+
+Le daily meeting dure forcément 15 minutes (tous les jours). Le PO doit y assister mais de façon passive, sans intervenir à moins qu'on ne lui donne la parôle. Il prend des infos. Cependant, ce daily meeting sert principalement à la TD (équipe de développement) pour faire le point.
+
+Lors du sprint rétro, chaque membre peut voter 3 fois pour des actions et décisions. 
+
+
+Méthode LEAN : courir après le gaspillage (à tous les niveaux)
+
+La chaîne de valeurs se définit dans un flux de valeurs (VSM)
+
+Éliminer le gaspillage : courir après chaque élément.
+
+5 pourquois : Cumuler 5 pourquois vis-à-vis d'un problème pour aller de plus en plus dans le détail jusqu'à trouver la cause racine pour la résoudre. On trouve les 5 pourquois dans les ateliers de résolution des problèmes.
+
+Kanban + Scrum = Scrumban
+Les Po travaillent en kanban en amont de l'équipe qui travaille en scrum
+
+DoR : Definition of Ready est incluse dans la DoD du Kanban
+
+
+
+
+
+
+Un projet Agile
+
+Présentation du projet : que faut-il faire ?
+
+Définir la vision : On doit se poser des questions sur le moment, mais aussi dans le futur
+
+personnas : on en créé plusieurs et on fait la synthèse des fonctionnalités : les plus communes sont à implémenter en priorité
+
+Temps de cycle : temps qui s'écoule depuis la naissance d'un besoin jusqu'à ce qu'il soit mis sur le marché
+On peut mettre ce qu'on veut dans une publication (release). On met ce sur quoi on veut communiquer. On ne doit pas planifier une release à l'avance, on les fait vis-à-vis des fonctionnalités déjà concues. On ne communique pas sur les versions.
+
+On pert d'un MVP : un produit minimal fonctionnel qu'on est PRÊT À VENDRE et sur lequel on peut se baser pour investir davantage dans le projet
+
+Product backlog
+Visibilité de l'ordre de quelques semaines pour le sprint, jusqu'à 1 an pour les releases, plusieurs années pour les futures releases.
+
+Dans ce product backlog, on fait en 1er les éléments les plus en haut en priorité et au début du temps, puis ceux à plus loin dans le temps (à droite) avec la même priorité, quand cette priorité est finie, on passe à la suivante
+
+Découpage des user stories
+
+US1
+EN TANT QUE stagiaire
+JE PEUX remplir une fiche d'éval
+AFIN DE porter mon éval sur le stage
+C'est trop gros pour un développeur, on est encore au niveau du thème
+
+US1.1
+EN TANT QUE stagiaire
+JE PEUX m'authentifier
+AFIN DE accéder au formulaire d'évaluation
+
+US2
+EN TANT QUE formateur
+JE PEUX accéder aux évaluations
+AFIN DE consulter les évaluations des stagiaires
+
+US3
+EN TANT QUE centre de formation
+JE PEUX lister les formations et les stages
+AFIN DE permettre aux stagiaires d'évaluer la bonne formation
+
+US4
+EN TANT QUE système
+JE PEUX appliquer les droits
+AFIN DE donner accès à un formulaire unique
+
+Les US doivent respecter le modèle INVEST, sinon on ne les prend pas
+On veut rendre les user stories indépendantes les une des autres : on ne veut pas avoir à attendre qu'une US soit terminée avant de pouvoir passer à l'autre.
+
+Le sprint refinment est implémenté vers les 1/2 ou 2/3 du sprint en cours mais sans le concerner. Cette cérémonie sert à alléger le sprint planning (les 4 premiers points). On met à jour le product backlog (le PO présente le ménage qu'il fait dedans) avec les priorités et estimations. On peut aussi préparer de nouveau sprints à venir.
+
+11 personnes maximum sur un projet Scrum (l'équipe de développement comporte de 3 à 9 personnes) sans compter les personnes "autres"
+
+
+
+
+
+
+
+
+
+
+
